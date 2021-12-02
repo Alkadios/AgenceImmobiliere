@@ -31,7 +31,7 @@ class PropertyController extends AbstractController
     }
 
     /**
-     * @Route("/properti/{id}/{slug}", name="property_show", requirements={"slug": "[a-z0-9\-]*" })
+     * @Route("/property/{id}/{slug}", name="property_show", requirements={"slug": "[a-z0-9\-]*" })
      *
      * @return Response
      */
